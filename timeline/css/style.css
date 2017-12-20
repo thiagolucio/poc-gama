@@ -1,0 +1,15 @@
+body, html { margin: 0; padding: 0; height: 100%;}
+.font10 {font-size: 10px;}
+.font12 {font-size: 12px;}
+.font14 {font-size: 14px;}
+.bg-topbar { background: linear-gradient(230deg, #006E9D 19%, #FF8F7F 82%); }
+ul.navbar-nav, a.dropdown-item {font-weight: 500;}
+a:hover {
+ -webkit-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+}
+.space-menu {width: 50px;}
+
+
+
+/*SIDEBAR*/
