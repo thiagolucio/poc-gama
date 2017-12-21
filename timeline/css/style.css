@@ -1,15 +1,27 @@
-body, html { margin: 0; padding: 0; height: 100%;}
+body, html { margin: 0; padding: 0; height: 100%; background: #FFFFFF;}
 .font10 {font-size: 10px;}
 .font12 {font-size: 12px;}
 .font14 {font-size: 14px;}
 .bg-topbar { background: linear-gradient(230deg, #006E9D 19%, #FF8F7F 82%); }
 ul.navbar-nav, a.dropdown-item {font-weight: 500;}
+.navbar-dark .navbar-nav .nav-link {color: #FFFFFF;}
+.height20 {height: 20px;}
+.height30 {height: 30px;}
+.height50 {height: 50px;}
+.width50 {width: 50px;}
+.margin0 {margin: 0px!important;}
+.padding0 {padding: 0!important;}
 a:hover {
  -webkit-transition: all 0.3s ease-in-out;
  transition: all 0.3s ease-in-out;
 }
-.space-menu {width: 50px;}
-
+.ui-shadow {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=108, Color=#000000)"!important;
+  -moz-box-shadow: 1px 3px 8px -2px #000000!important;
+  -webkit-box-shadow: 1px 3px 8px -2px #000000!important;
+  box-shadow: 1px 3px 8px -2px #000000!important;
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color=#000000)!impotant;
+}
 
 
 /*SIDEBAR*/

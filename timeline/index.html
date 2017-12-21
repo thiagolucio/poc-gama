@@ -1,80 +1,82 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
-  <head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Palavras chave separadas por virgulas" />
-    <meta name="description" content="Texto resumido aparecera nos resultados de busca atalhos" />
-    <meta name="author" content="Nome do autor">
-    <!--   <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" type=<!-- "text/css" href="css/bootstrap.min.css"> -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.gama.min.css">
-    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-    <!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
-  </head>
-  <body>
-    <section>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-topbar">
-        <a class="navbar-brand font14" href="#">QSaudeWeb <small>v0.0.10-SNAPSHOT</small></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Palavras chave separadas por virgulas" />
+  <meta name="description" content="Texto resumido aparecera nos resultados de busca atalhos" />
+  <meta name="author" content="Nome do autor">
+  <!--   <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type=<!-- "text/css" href="css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.gama.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/timeline.css">
+  <link rel="stylesheet" href="css/animate.css">
+
+
+</head>
+
+<body>
+  <section>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-topbar ui-shadow">
+      <a class="navbar-brand font14" href="#">QSaudeWeb <small>v0.0.10-SNAPSHOT</small></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarColor01">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <div class="dropdown">
-                <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuModulos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
-                <a class="nav-link" href="#" id="dropdownMenuModulos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarColor01">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <div class="dropdown">
+              <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuModulos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+              <a class="nav-link" href="#" id="dropdownMenuModulos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="fas fa-th"></i> Módulos <span class="sr-only">(current)</span>
                 </a>
-                <div class="dropdown-menu btn-secondary animated flipInX" aria-labelledby="dropdownMenuModulos">
-                  <a class="dropdown-item" href="#">Central </a>
-                  <a class="dropdown-item" href="#">Atendimento</a>
-                  <a class="dropdown-item" href="#">Autorização</a>
-                  <a class="dropdown-item" href="#">Administração</a>
-                </div>
+              <div class="dropdown-menu btn-info animated flipInX" aria-labelledby="dropdownMenuModulos">
+                <a class="dropdown-item" href="#">Central </a>
+                <a class="dropdown-item" href="#">Atendimento</a>
+                <a class="dropdown-item" href="#">Autorização</a>
+                <a class="dropdown-item" href="#">Administração</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuModulos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
-                <a class="nav-link" href="#" id="dropdownMenuIdioma" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuModulos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+              <a class="nav-link" href="#" id="dropdownMenuIdioma" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="fas fa-th"></i> Idioma <span class="sr-only">(current)</span>
                 </a>
-                <div class="dropdown-menu btn-secondary animated flipInX" aria-labelledby="dropdownMenuIdioma">
-                  <a class="dropdown-item" href="#">Português(Brasil) </a>
-                  <a class="dropdown-item" href="#">Espanhol</a>
-                </div>
+              <div class="dropdown-menu btn-info animated flipInX" aria-labelledby="dropdownMenuIdioma">
+                <a class="dropdown-item" href="#">Português(Brasil) </a>
+                <a class="dropdown-item" href="#">Espanhol</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuModulos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
-                <a class="nav-link" href="#" id="dropdownMenuAdministrador" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuModulos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+              <a class="nav-link" href="#" id="dropdownMenuAdministrador" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="fab fa-black-tie"></i> Administrador <span class="sr-only">(current)</span>
                 </a>
-                <div class="dropdown-menu btn-secondary animated flipInX" aria-labelledby="dropdownMenuAdministrador">
-                  <a class="dropdown-item" href="#">configuração</a>
-                  <a class="dropdown-item" href="#">Senha</a>
-                  <a class="dropdown-item" href="#">Sair</a>
-                </div>
+              <div class="dropdown-menu btn-info animated flipInX" aria-labelledby="dropdownMenuAdministrador">
+                <a class="dropdown-item" href="#">configuração</a>
+                <a class="dropdown-item" href="#">Senha</a>
+                <a class="dropdown-item" href="#">Sair</a>
               </div>
-              <li class="space-menu"></li>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- <div class="col-md-12">
+            </div>
+            <li class="width50"></li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <div class="col-md-12">
         <div class="nav-sidebar">
           <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
@@ -89,45 +91,248 @@
           </nav>
         </div>
       </div> -->
-      <div class="row">
-        <div class="col-md-12">
-          <div class="jumbotron">
-            <h2>Hello, world!</h2>
-            <table class="table">
-              <caption>List of users</caption>
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">First Name</th>
-                  <th scope="col">Last Name</th>
-                  <th scope="col">Username</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
-            </table>
-            <p><a class="btn btn-primary btn-large" href="#">Learn more</a></p>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron bg-white">
+          <div class="list-group-item d-flex justify-content-between align-items-center bg-dark text-white">
+            <h4><b>Nome do GPS</b></h4>
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <b>Nome do Beneficiário - 12345678910111213458</b>
+                  </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#"><b>Nome do Beneficiário - 12345678910111213458</b></a>
+                <a class="dropdown-item" href="#"><b>Nome do Beneficiário - 12345678910111213458</b></a>
+                <a class="dropdown-item" href="#"><b>Nome do Beneficiário - 12345678910111213458</b></a>
+                <a class="dropdown-item" href="#"><b>Nome do Beneficiário - 12345678910111213458</b></a>
+              </div>
+            </div>
+            <span class="badge badge-primary badge-pill"><b class="font14">17/12/2017 - 11:25:30</b></span>
           </div>
+          <div class="list-group-item bg-secondary">
+            <h5 class="text-center"><b>Guia Pessoal em Saúde "Lia"</b></h5>
+          </div>
+          <table class="table table-light table-bordered text-center">
+            <thead class="table-dark">
+              <th class="text-center">Alertas</th>
+              <th class="text-center">Painel Beneficiário</th>
+              <th class="text-center">Alertas Urgências(PS/ Internações)</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="margin0 padding0">
+                  <!-- PRIMEIRA TABELA ALERTAS -->
+                  <table class="table table-hover table-striped">
+                    <thead class="table-info">
+                      <tr>
+                        <th scope="col">Data/Hora</th>
+                        <th scope="col">Atividade</th>
+                        <th scope="col">Carteirinha</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Dd/Mn/Aaaa | Hh:Mm</th>
+                        <td>Motivo Contato</td>
+                        <td>12345678910111213458</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Dd/Mn/Aaaa | Hh:Mm</th>
+                        <td>Motivo Contato</td>
+                        <td>12345678910111213458</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Dd/Mn/Aaaa | Hh:Mm</th>
+                        <td>Motivo Contato</td>
+                        <td>12345678910111213458</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Dd/Mn/Aaaa | Hh:Mm</th>
+                        <td>Motivo Contato</td>
+                        <td>12345678910111213458</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- FINAL DA PRIMEIRA TABELA -->
+                </td>
+                <td class="margin0 padding0">
+                  <!-- SEGUNDA TABELA PAINEL BENEFICIARIO -->
+                  <table class="table table-hover table-striped">
+                    <thead class="table-info">
+                      <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Agendamento</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Nome</th>
+                        <td>Lia</td>
+                        <td class="text-success"><i class="fas fa-check-circle fa-lg"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Nome</th>
+                        <td class="bg-danger text-white"><b>Automático</b></td>
+                        <td class="text-danger"><i class="fas fa-minus-circle fa-lg"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Nome</th>
+                        <td class="bg-warning"><b>Lia</b></td>
+                        <td class="text-warning"><i class="fas fa-info-circle fa-lg"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Nome</th>
+                        <td class="bg-success text-white"><b>Automático</b></td>
+                        <td class="text-success"><i class="fas fa-check-circle fa-lg"></i></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- FINAL DA PAINEL BENEFICIARIO TABELA -->
+                </td>
+                <td class="bg-light text-dark" rowspan="2">
+                  <b>
+                      Alertas Urgências (PS e Internação)
+                    </b>
+                </td>
+              </tr>
+              <tr class="bg-light text-dark">
+                <td colspan="2">
+                  <div class="card bg-light">
+                    <h5 class="card-header"><b>Registro</b></h5>
+                    <div class="card-body">
+                      <p class="card-text">
+                        <div class="container">
+                        <!-- <div w3-include-html="timeline.html"></div> -->
+                        <section class="timeline">
+                          <ol>
+                            <li>
+                              <div>
+                                <time>Janeiro/2018</time>
+                                <span class="badge badge-pill badge-danger font12"><b>AUSENTE</b></span>
+                                <br>
+                                <span class="btn-group btn-group-sm pull-right" role="group" aria-label="Basic example">
+                                  <!-- <button type="button" class="btn btn btn btn-link text-warning" title="Informações Relevantes"><i class="fas fa-exclamation-circle fa-lg"></i></button>
+                                  <button type="button" class="btn btn-link text-white" title="Verificar Efetuados"><i class="fas fa-eye fa-lg"></i></button> -->
+                                  <button type="button" class="btn btn-link text-danger" title="Sem Ocorrências"><i class="fas fa-minus-circle fa-lg"></i></button>
+                                </span>
+                              </div>
+                            </li>
+                            <li>
+                              <div>
+                                <time>Fevereiro/2018</time>
+                                <span class="badge badge-pill badge-success font12"><b>ATIVIDADES</b></span>
+
+                                <span class="btn-group btn-group-sm pull-right" role="group" aria-label="Basic example">
+                                  <button type="button" class="btn btn btn btn-link text-warning" title="Informações Relevantes"><i class="fas fa-exclamation-circle fa-lg"></i></button>
+                                  <button type="button" class="btn btn-link text-white" title="Verificar Efetuados"><i class="fas fa-eye fa-lg"></i></button>
+                                  <button type="button" class="btn btn-link text-white" title="Enviar Mensagem"><i class="fas fa-envelope fa-lg"></i></button>
+                                </span>
+
+                              </div>
+                            </li>
+                            <li>
+                              <div>
+                                <time>Março/2018</time>
+                                Texto referente a Março de 2018
+                              </div>
+                            </li>
+                            <li>
+                              <div>
+                                <time>Abril/2018</time>
+                                Texto referente a Abril de 2018
+                              </div>
+                            </li>
+                            <li>
+                              <div>
+                                <time>Maio/2018</time>
+                                Texto referente a Maio de 2018
+                              </div>
+                            </li>
+                            <li>
+                              <div>
+                                <time>Junho/2018</time>
+                                Texto referente a Junho de 2018
+                              </div>
+                            </li>
+                            <li>
+                              <div>
+                                <time>Julho/2018</time>
+                                <span class="badge badge-pill badge-success font12"><b>TUDO CERTO</b></span>
+                                <br>
+                                <span class="btn-group btn-group-sm pull-right" role="group" aria-label="Basic example">
+                                  <button type="button" class="btn btn btn btn-link text-success" title="Tudo certo"><i class="fas fa-check-circle fa-lg"></i></button>
+                                  <button type="button" class="btn btn btn btn-link text-white" title="Mandar um Elogio"><i class="fas fa-thumbs-up fa-lg"></i></button>
+                                </span>
+                              </div>
+                            </li>
+                            <li>
+                              <div>
+                                <time>Agosto/2018</time>
+                                Texto referente a Agosto de 2018
+                              </div>
+                            </li>
+                            <li>
+                              <div>
+                                <time>Setembro/2018</time>
+                                Texto referente a Setembro de 2018
+                              </div>
+                            </li>
+                            <li>
+                              <div>
+                                <time>Outubro/2018</time>
+                                Texto referente a Outubro de 2018
+                              </div>
+                            </li>
+                            <li>
+                              <div>
+                                <time>Novembro/2018</time>
+                                Texto referente a Novembro de 2018
+                              </div>
+                            </li>
+                            <li>
+                              <div>
+                                <time>2005</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                              </div>
+                            </li>
+                            <li></li>
+                          </ol>
+
+                          <div class="arrows">
+                            <button class="arrow arrow__prev disabled" disabled>
+                              <i class="fas fa-chevron-circle-left fa-3x" alt="prev timeline arrow"></i>
+                              <!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow_prev.svg" alt="prev timeline arrow"> -->
+                            </button>
+                            <button class="arrow arrow__next">
+                              <i class="fas fa-chevron-circle-right fa-3x" alt="next timeline arrow"></i>
+                              <!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow_next.svg" alt="next timeline arrow"> -->
+                            </button>
+                          </div>
+                        </section>
+
+
+
+
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p><a class="btn btn-primary btn-large" href="#">Learn more</a></p>
         </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
+  <script src="js/timeline.js"></script>
+</body>
 </html>
