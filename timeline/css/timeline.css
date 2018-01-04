@@ -33,7 +33,7 @@ button:hover, button:active { color: #FF8F7F; }
 
 .timeline ol li div {
   position: absolute;
-  /* left: calc(100% + 7px); */
+  left: calc(100% + 7px);
   width: 200px;
   height: 100px;
   padding: 15px;
